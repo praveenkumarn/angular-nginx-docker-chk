@@ -12,7 +12,7 @@ services:
     deploy:
       replicas: 2
 
- networks:
+networks:
   overlay:
     external:
       name: epicnetwork
