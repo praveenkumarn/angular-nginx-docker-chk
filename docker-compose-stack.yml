@@ -7,5 +7,12 @@ services:
       NODE_ENV: production
     ports:
       - 4580:80
+    networks:
+      - overlay
     deploy:
       replicas: 2
+
+ networks:
+  overlay:
+    external:
+      name: epicnetwork
