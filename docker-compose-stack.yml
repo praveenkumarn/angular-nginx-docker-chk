@@ -10,7 +10,7 @@ services:
     networks:
       - overlay
     deploy:
-      replicas: 3
+      replicas: 2
 
 networks:
   overlay:
